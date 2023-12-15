@@ -275,7 +275,7 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4">
           <div class="section-heading">
-            <h6>| Best Deal</h6>
+            <h6>| MOST BEST OF US</h6>
             <h2>Temukan Harga Terbaik Sekarang</h2>
           </div>
         </div>
@@ -287,15 +287,15 @@ https://templatemo.com/tm-591-villa-agency
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab"
                       data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
-                      aria-selected="true">Appartment</button>
+                      aria-selected="true">Sparepart</button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button"
-                      role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
+                      role="tab" aria-controls="villa" aria-selected="false">Layanan</button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
-                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
+                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Mekanik</button>
                   </li>
                 </ul>
               </div>
@@ -305,26 +305,22 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Merek <span>Honda</span></li>
-                          <li>Aplikasi <span>K24</span></li>
+                          <li>Merek <span>Koyorad</span></li>
+                          <li>Aplikasi <span>Semua Mobil</span></li>
                           <li>Ukuran <span>40x50 cm</span></li>
                           <li>Payment Process <span>Bank</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-01.jpg" alt="">
+                      <img src="assets/images/koyorad radiator.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Extra Info About Property</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
-                        labore et dolore magna aliqua quised ipsum suspendisse.
-                        <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine
-                        website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
+                      <h4>Deskripsi tambahan</h4>
+                      <p>Produk yang memiliki brand KOYORAD ini sudah tidak diragukan lagi akan 
+                        kualitasnya, karena menggunakan alumunium kelas tertinggi untuk memberikan fungsi yang optimal untuk mobil.
+                        <br><br>Brand yang berasal dari negeri sakura ini tidak perlu di ragukan lagi karena sudah teruji di berbagai ajang balap internasional.
                       </p>
-                      <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -333,26 +329,21 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Total Flat Space <span>250 m2</span></li>
-                          <li>Floor number <span>26th</span></li>
-                          <li>Number of rooms <span>5</span></li>
-                          <li>Parking Available <span>Yes</span></li>
+                          <li>Nama <span>Korok Radiator</span></li>
+                          <li>Aplikasi <span>Semua mobil</span></li>
+                          <li>Pengerjaan <span>1 Hari</span></li>
                           <li>Payment Process <span>Bank</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-02.jpg" alt="">
+                      <img src="assets/images/korok radiator.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Detail Info About Villa</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
-                        labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee.
-                        JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo
-                        after messenger poutine next level humblebrag swag franzen.</p>
-                      <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                      </div>
+                      <h4>Deskripsi tambahan</h4>
+                      <p>Korok radiator yang ada di bengkel kami di lakukan oleh mekanik yang andalan dan tidak perlu 
+                        di ragukan lagi karena sudah berpengalaman mengerjakan ratusan radiator.<br><br>Harga memang sebanding dengan kualitas, namun 
+                        di bengkel kami dengan harga yang cukup murah ada juga jaminan satu hari jadi.</p>
                     </div>
                   </div>
                 </div>
@@ -361,26 +352,21 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Total Flat Space <span>320 m2</span></li>
-                          <li>Floor number <span>34th</span></li>
-                          <li>Number of rooms <span>6</span></li>
-                          <li>Parking Available <span>Yes</span></li>
-                          <li>Payment Process <span>Bank</span></li>
+                          <li>Nama <span>Dalijo nikolas</span></li>
+                          <li>Usia <span>34th</span></li>
+                          <li>Pengalaman <span>10 Tahun</span></li>
+                          <li>Spesialis <span>Korok radiator</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-03.jpg" alt="">
+                      <img src="assets/images/mekanik.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Extra Info About Penthouse</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
-                        labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee.
-                        JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo
-                        after messenger poutine next level humblebrag swag franzen.</p>
-                      <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                      </div>
+                      <h4>Deskripsi tambahan</h4>
+                      <p>Mekanik DR.RADIATOR yang berdarah jawa kental ini sudah menjadi andalan
+                         bengkel kami sejak pertamakali bengkel kami buka tahun 2012. <br><br>Berbagai masalah sudah mekanik alami 
+                         sehingga tidak perlu diragukan lagi akan kepiawaiannya dalam mengerjakan korok radiator.</p>
                     </div>
                   </div>
                 </div>
@@ -395,10 +381,10 @@ https://templatemo.com/tm-591-villa-agency
   <div class="properties section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-4">
+        <div class="col-lg-6 offset-lg-3">
           <div class="section-heading text-center">
-            <h6>| Properties</h6>
-            <h2>We Provide The Best Property You Like</h2>
+            <h6>| Sparepart</h6>
+            <h2>Kita Selalu Menyediakan Sparepart Yang Berkualitas Dan Original</h2>
           </div>
         </div>
       </div>
@@ -406,26 +392,22 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$2.264.000</h6>
-            <h4><a href="property-details.html">18 New Street Miami, OR 97219</a></h4>
+            <span class="category">Air Coolant</span>
+            <h6>Rp.240.000</h6>
+            <h4>Merek abc</h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>545m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>6 spots</span></li>
+              <li>Isi <span>5 liter</span></li>
+              <li>Aplikasi <span>MPV</span></li>
+              <li>Warna <span>Hijau</span></li>
             </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.180.000</h6> 27001</a></h4>
+            <span class="category">Selang Radiator</span>
+            <h6>Rp.180.000</h6></a>
+            <h4>Spoon</h4>
             <ul>
               <li>Bedrooms: <span>6</span></li>
               <li>Bathrooms: <span>5</span></li>
@@ -433,9 +415,6 @@ https://templatemo.com/tm-591-villa-agency
               <li>Floor: <span>3</span></li>
               <li>Parking: <span>8 spots</span></li>
             </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -451,9 +430,6 @@ https://templatemo.com/tm-591-villa-agency
               <li>Floor: <span>3</span></li>
               <li>Parking: <span>10 spots</span></li>
             </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -469,9 +445,6 @@ https://templatemo.com/tm-591-villa-agency
               <li>Floor: <span>25th</span></li>
               <li>Parking: <span>2 cars</span></li>
             </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -487,9 +460,6 @@ https://templatemo.com/tm-591-villa-agency
               <li>Floor: <span>38th</span></li>
               <li>Parking: <span>2 cars</span></li>
             </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -498,9 +468,6 @@ https://templatemo.com/tm-591-villa-agency
             <span class="category">Korok LCGC</span>
             <h6>RP.450.000</h6>
             <h4><a href="property-details.html">Sleman Yogyakarta</a></h4>
-            <div class="main-button">
-              <a href="property-details.html">Scedhule</a>
-            </div>
           </div>
         </div>
       </div>
