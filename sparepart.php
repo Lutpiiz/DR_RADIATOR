@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+session_start();
+
+// Cek apakah session 'email' telah terdaftar
+if (!isset($_SESSION['email'])) {
+    // Jika belum login, arahkan kembali ke halaman login
+    header("Location: login.php");
+    exit;
+}
+?>
+
 <head>
 
   <meta charset="utf-8">
@@ -71,17 +82,17 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <h1>Dr.Radiator</h1>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="sparepart.html">Sparepart</a></li>
-              <li><a href="jasa.html">Layanan</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="#"><i class="fa fa-user"></i>Login</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="sparepart.php">Sparepart</a></li>
+              <li><a href="jasa.php">Layanan</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
+              <li><a href="#"><i class="fa fa-user"></i><?php echo "" .$_SESSION['username']. ""; ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>

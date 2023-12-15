@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+session_start();
+
+// Cek apakah session 'email' telah terdaftar
+if (!isset($_SESSION['email'])) {
+    // Jika belum login, arahkan kembali ke halaman login
+    header("Location: login.php");
+    exit;
+}
+?>
+
 <head>
 
   <meta charset="utf-8">
@@ -56,7 +67,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-4">
           <ul class="social-links">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
           </ul>
@@ -72,17 +83,17 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <h1>Dr.Radiator</h1>
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="sparepart.html">Sparepart</a></li>
-              <li><a href="jasa.html">Layanan</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="/templatemo_524_product_admin/index.html"><i class="fa fa-user"></i> Login</a></li>
+              <li><a href="index.php" class="active">Home</a></li>
+              <li><a href="sparepart.php">Sparepart</a></li>
+              <li><a href="jasa.php">Layanan</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
+              <li><a href="#"><i class="fa fa-user"></i><?php echo "" .$_SESSION['username']. ""; ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -124,7 +135,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4">
           <div class="left-image">
             <img src="assets/images/featured.jpg" alt="">
-            <a href="jasa.html"><i class="fa-solid fa-screwdriver-wrench fa-2xl" style="color: #ffffff;"></i></a>
+            <a href="jasa.php"><i class="fa-solid fa-screwdriver-wrench fa-2xl" style="color: #ffffff;"></i></a>
           </div>
         </div>
         <div class="col-lg-5">
