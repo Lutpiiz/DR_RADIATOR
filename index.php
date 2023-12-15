@@ -110,19 +110,19 @@ https://templatemo.com/tm-591-villa-agency
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
         <div class="header-text">
-          <span class="category">Kulon Progo, <em>Yogyakarta</em></span>
+          <span class="category">Perawatan, <em>Yang Bermutu</em></span>
 
         </div>
       </div>
       <div class="item item-2">
         <div class="header-text">
-          <span class="category">Ungaran, <em>Semarang</em></span>
+          <span class="category">Perbaikan Secara, <em>Detail</em></span>
 
         </div>
       </div>
       <div class="item item-3">
         <div class="header-text">
-          <span class="category">Klaten Selatan, <em>Klaten</em></span>
+          <span class="category">Penggatian, <em>Radiator</em></span>
 
         </div>
       </div>
