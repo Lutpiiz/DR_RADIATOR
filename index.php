@@ -6,9 +6,9 @@ session_start();
 
 // Cek apakah session 'email' telah terdaftar
 if (!isset($_SESSION['email'])) {
-    // Jika belum login, arahkan kembali ke halaman login
-    header("Location: login.php");
-    exit;
+  // Jika belum login, arahkan kembali ke halaman login
+  header("Location: login.php");
+  exit;
 }
 ?>
 
@@ -16,8 +16,7 @@ if (!isset($_SESSION['email'])) {
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <title>DR. RADIATOR</title>
 
@@ -93,7 +92,7 @@ https://templatemo.com/tm-591-villa-agency
               <li><a href="sparepart.php">Sparepart</a></li>
               <li><a href="jasa.php">Layanan</a></li>
               <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="#"><i class="fa fa-user"></i><?php echo "" .$_SESSION['username']. ""; ?></a></li>
+              <li><a href="#"><i class="fa fa-user"></i><?php echo "" . $_SESSION['username'] . ""; ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -146,26 +145,22 @@ https://templatemo.com/tm-591-villa-agency
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Bagaimana Kami Bekerja?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Kami di <b>DR. RADIATOR</b> memulai setiap pekerjaan dengan pendekatan terstruktur yang berfokus pada keakuratan dan ketelitian. Tim terlatih kami memulai dengan analisis menyeluruh terhadap sistem radiator mobil Anda. Kami mengutamakan tahap pemeriksaan yang cermat untuk mengidentifikasi dengan tepat setiap masalah yang mungkin terjadi. Setelah diagnosis, kami mengambil langkah-langkah yang tepat untuk melakukan perbaikan, pembersihan, atau penggantian dengan menggunakan teknologi terkini dan prosedur terbaik dalam industri ini.</div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   Apa alat yang kami gunakan?
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Dalam setiap langkah perbaikan, kami mengandalkan alat-alat khusus yang dirancang untuk menangani sistem radiator. Dari alat pengukur tekanan hingga peralatan pembersih khusus, kami memiliki koleksi alat yang lengkap dan canggih untuk menjamin bahwa setiap tindakan yang kami lakukan memberikan hasil yang presisi dan optimal. Penggunaan teknologi terdepan dalam peralatan kami memastikan bahwa proses perbaikan, pembersihan, dan penggantian dilakukan dengan efisiensi dan tingkat akurasi yang tinggi.
                 </div>
@@ -173,13 +168,11 @@ https://templatemo.com/tm-591-villa-agency
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   Bagaimana pengalaman kami?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Dengan pengalaman yang luas dalam industri ini, kami telah menghadapi dan menangani berbagai macam radiator dan masalah yang mungkin timbul. Kami telah memberikan layanan berkualitas tinggi kepada pelanggan selama bertahun-tahun, membangun reputasi atas kehandalan, kecepatan, dan keahlian dalam menangani beragam situasi terkait radiator mobil. Pengalaman kami yang mendalam menjadi landasan yang kokoh untuk memberikan solusi yang terbaik dan pelayanan yang memuaskan kepada setiap pelanggan kami.
                 </div>
@@ -285,17 +278,13 @@ https://templatemo.com/tm-591-villa-agency
               <div class="nav-wrapper ">
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab"
-                      data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
-                      aria-selected="true">Sparepart</button>
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Sparepart</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button"
-                      role="tab" aria-controls="villa" aria-selected="false">Layanan</button>
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Layanan</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
-                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Mekanik</button>
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Mekanik</button>
                   </li>
                 </ul>
               </div>
@@ -313,11 +302,11 @@ https://templatemo.com/tm-591-villa-agency
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/koyorad radiator.jpg" alt="">
+                      <img src="assets/images/KOYORAD1radiator.jpg" alt="" width="300px" height="350px">
                     </div>
                     <div class="col-lg-3">
                       <h4>Deskripsi tambahan</h4>
-                      <p>Produk yang memiliki brand KOYORAD ini sudah tidak diragukan lagi akan 
+                      <p>Produk yang memiliki brand KOYORAD ini sudah tidak diragukan lagi akan
                         kualitasnya, karena menggunakan alumunium kelas tertinggi untuk memberikan fungsi yang optimal untuk mobil.
                         <br><br>Brand yang berasal dari negeri sakura ini tidak perlu di ragukan lagi karena sudah teruji di berbagai ajang balap internasional.
                       </p>
@@ -341,8 +330,8 @@ https://templatemo.com/tm-591-villa-agency
                     </div>
                     <div class="col-lg-3">
                       <h4>Deskripsi tambahan</h4>
-                      <p>Korok radiator yang ada di bengkel kami di lakukan oleh mekanik yang andalan dan tidak perlu 
-                        di ragukan lagi karena sudah berpengalaman mengerjakan ratusan radiator.<br><br>Harga memang sebanding dengan kualitas, namun 
+                      <p>Korok radiator yang ada di bengkel kami di lakukan oleh mekanik yang andalan dan tidak perlu
+                        di ragukan lagi karena sudah berpengalaman mengerjakan ratusan radiator.<br><br>Harga memang sebanding dengan kualitas, namun
                         di bengkel kami dengan harga yang cukup murah ada juga jaminan satu hari jadi.</p>
                     </div>
                   </div>
@@ -360,13 +349,13 @@ https://templatemo.com/tm-591-villa-agency
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/mekanik.jpg" alt="">
+                      <img src="assets/images/mekanikdlj.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
                       <h4>Deskripsi tambahan</h4>
                       <p>Mekanik DR.RADIATOR yang berdarah jawa kental ini sudah menjadi andalan
-                         bengkel kami sejak pertamakali bengkel kami buka tahun 2012. <br><br>Berbagai masalah sudah mekanik alami 
-                         sehingga tidak perlu diragukan lagi akan kepiawaiannya dalam mengerjakan korok radiator.</p>
+                        bengkel kami sejak pertamakali bengkel kami buka tahun 2012. <br><br>Berbagai masalah sudah mekanik alami
+                        sehingga tidak perlu diragukan lagi akan kepiawaiannya dalam mengerjakan korok radiator.</p>
                     </div>
                   </div>
                 </div>
@@ -391,83 +380,76 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/PEAK coolant.png" alt=""></a>
             <span class="category">Air Coolant</span>
             <h6>Rp.240.000</h6>
-            <h4>Merek abc</h4>
+            <h4>PEAK</h4>
             <ul>
               <li>Isi <span>5 liter</span></li>
-              <li>Aplikasi <span>MPV</span></li>
-              <li>Warna <span>Hijau</span></li>
+              <li>Aplikasi <span>All</span></li>
+              <li>Warna <span>Biru</span></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
-            <span class="category">Selang Radiator</span>
+            <a href="property-details.html"><img src="assets/images/MOBIL coolant.png" alt="" width="300px" height="350px"></a>
+            <span class="category">Air coolant</span>
             <h6>Rp.180.000</h6></a>
-            <h4>Spoon</h4>
+            <h4>Mobil</h4>
             <ul>
-              <li>Bedrooms: <span>6</span></li>
-              <li>Bathrooms: <span>5</span></li>
-              <li>Area: <span>450m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>8 spots</span></li>
+              <li>Isi <span>5 liter</span></li>
+              <li>Aplikasi <span>All</span></li>
+              <li>Warna <span>Merah</span></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Old Street Miami, OR 38540</a></h4>
+            <a href="property-details.html"><img src="assets/images/SAMCO selang.jpg" alt="" width="300px" height="350px"></a>
+            <span class="category">Selang</span>
+            <h6>Rp.100.000</h6>
+            <h4>SAMCO</h4>
             <ul>
-              <li>Bedrooms: <span>5</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>225m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>10 spots</span></li>
+              <li>Barang <span>Full Set</span></li>
+              <li>Aplikasi <span>All</span></li>
+              <li>Warna <span>Biru</span></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
-            <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="property-details.html">12 New Street Miami, OR 12650</a></h4>
+            <a href="property-details.html"><img src="assets/images/UPPER tank.jpg" alt=""></a>
+            <span class="category">Upper Tank</span>
+            <h6>Rp.584.500</h6>
+            <h4><a href="property-details.html">For Avanza Xenia</a></h4>
             <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>3</span></li>
-              <li>Area: <span>125m2</span></li>
-              <li>Floor: <span>25th</span></li>
-              <li>Parking: <span>2 cars</span></li>
+              <li>Aplikasi <span>Avanza Xenia</span></li>
+              <li>Warna <span>Hitam</span></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Beach Street Miami, OR 42680</a></h4>
+            <a href="property-details.html"><img src="assets/images/TERMOSTAT.jpg" alt=""></a>
+            <span class="category">Termostat</span>
+            <h6>Rp.125.600</h6>
+            <h4><a href="property-details.html">No Brand</a></h4>
             <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>180m2</span></li>
-              <li>Floor: <span>38th</span></li>
-              <li>Parking: <span>2 cars</span></li>
+              <li>Aplikasi <span>All</span></li>
+            </ul>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
-            <span class="category">Korok LCGC</span>
+            <a href="property-details.html"><img src="assets/images/LOWER tank.jpg" alt="" height="270px"></a>
+            <span class="category">Lower Tank</span>
             <h6>RP.450.000</h6>
-            <h4><a href="property-details.html">Sleman Yogyakarta</a></h4>
+            <h4><a href="property-details.html">Toyota</a></h4>
+            <ul>
+              <li>Aplikasi <span>Avanza & Xenia</span></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -492,11 +474,7 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-7">
           <div id="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.710717395191!2d110.2249097745528!3d-7.714156976423388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af397575799bd%3A0x146e32cec6af039a!2sBengkel%20radiator%20MJP%20%7C%20PUTRA%20GD!5e0!3m2!1sid!2sid!4v1702563004571!5m2!1sid!2sid"
-              width="100%" height="500px" frameborder="0"
-              style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);"
-              allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.710717395191!2d110.2249097745528!3d-7.714156976423388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af397575799bd%3A0x146e32cec6af039a!2sBengkel%20radiator%20MJP%20%7C%20PUTRA%20GD!5e0!3m2!1sid!2sid!4v1702563004571!5m2!1sid!2sid" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -525,8 +503,7 @@ https://templatemo.com/tm-591-villa-agency
               <div class="col-lg-12">
                 <fieldset>
                   <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..."
-                    required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
