@@ -6,9 +6,9 @@ session_start();
 
 // Cek apakah session 'email' telah terdaftar
 if (!isset($_SESSION['email'])) {
-    // Jika belum login, arahkan kembali ke halaman login
-    header("Location: login.php");
-    exit;
+  // Jika belum login, arahkan kembali ke halaman login
+  header("Location: login.php");
+  exit;
 }
 ?>
 
@@ -16,8 +16,7 @@ if (!isset($_SESSION['email'])) {
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <title>DR. RADIATOR</title>
 
@@ -92,7 +91,7 @@ https://templatemo.com/tm-591-villa-agency
               <li><a href="sparepart.php">Sparepart</a></li>
               <li><a href="jasa.php">Layanan</a></li>
               <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="#"><i class="fa fa-user"></i><?php echo "" .$_SESSION['username']. ""; ?></a></li>
+              <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i>Login</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -123,22 +122,22 @@ https://templatemo.com/tm-591-villa-agency
           <a class="is_active" href="#!" data-filter="*">Show All</a>
         </li>
         <li>
-          <a href="#!" data-filter=".adv">Radiator</a>
+          <a href="#!" data-filter=".rad">Radiator</a>
         </li>
         <li>
-          <a href="#!" data-filter=".str">Tank</a>
+          <a href="#!" data-filter=".tank">Tank</a>
         </li>
         <li>
-          <a href="#!" data-filter=".rac">Selang</a>
+          <a href="#!" data-filter=".sel">Selang</a>
         </li>
         <li>
-          <a href="#!" data-filter=".rac">Coolant</a>
+          <a href="#!" data-filter=".cool">Coolant</a>
         </li>
       </ul>
       <div class="row properties-box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/Radiator-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$2.264.000</h6>
             <h4><a href="property-details.html">18 Old Street Miami, OR 97219</a></h4>
@@ -150,13 +149,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>6 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/Radiator-02.jpg" alt="" height="355px"></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.180.000</h6>
             <h4><a href="property-details.html">54 New Street Florida, OR 27001</a></h4>
@@ -168,16 +167,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>8 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/Radiator-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Mid Street Portland, OR 38540</a></h4>
+            <h4><a href="#">26 Mid Street Portland, OR 38540</a></h4>
             <ul>
               <li>Bedrooms: <span>5</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -186,13 +185,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>10 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/Radiator-04.jpg" alt=""></a>
             <span class="category">Apartment</span>
             <h6>$584.500</h6>
             <h4><a href="property-details.html">12 Hope Street Portland, OR 12650</a></h4>
@@ -204,13 +203,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/Radiator-05.jpg" alt=""></a>
             <span class="category">Penthouse</span>
             <h6>$925.600</h6>
             <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
@@ -222,13 +221,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/tank01.jpg" alt="" height="355px"></a>
             <span class="category">Modern Condo</span>
             <h6>$450.000</h6>
             <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
@@ -240,13 +239,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>3 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/tank02.jpg" alt="" height="355px"></a>
             <span class="category">Luxury Villa</span>
             <h6>$980.000</h6>
             <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
@@ -258,13 +257,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>12 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/selang1.jpeg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.520.000</h6>
             <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
@@ -276,13 +275,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>14 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/selang02.jpeg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$3.145.000</h6>
             <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
@@ -294,19 +293,63 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>10 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="#">1</a></li>
-            <li><a class="is_active" href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">>></a></li>
-          </ul>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant1.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$980.000</h6>
+            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+            <ul>
+              <li>Bedrooms: <span>8</span></li>
+              <li>Bathrooms: <span>8</span></li>
+              <li>Area: <span>550m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>12 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant2.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.520.000</h6>
+            <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
+            <ul>
+              <li>Bedrooms: <span>12</span></li>
+              <li>Bathrooms: <span>15</span></li>
+              <li>Area: <span>380m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>14 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant3.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$3.145.000</h6>
+            <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+            <ul>
+              <li>Bedrooms: <span>10</span></li>
+              <li>Bathrooms: <span>12</span></li>
+              <li>Area: <span>860m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>10 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -328,6 +371,8 @@ https://templatemo.com/tm-591-villa-agency
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+
+
 
 </body>
 
