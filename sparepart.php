@@ -167,7 +167,7 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>8 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@ https://templatemo.com/tm-591-villa-agency
             <a href="property-details.html"><img src="assets/images/Radiator-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Mid Street Portland, OR 38540</a></h4>
+            <h4><a href="#">26 Mid Street Portland, OR 38540</a></h4>
             <ul>
               <li>Bedrooms: <span>5</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -185,7 +185,7 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>10 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
@@ -221,13 +221,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/tank01.jpg" alt="" height="355px"></a>
             <span class="category">Modern Condo</span>
             <h6>$450.000</h6>
             <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
@@ -239,13 +239,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>3 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/tank02.jpg" alt="" height="355px"></a>
             <span class="category">Luxury Villa</span>
             <h6>$980.000</h6>
             <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
@@ -257,13 +257,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>12 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/selang1.jpeg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.520.000</h6>
             <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
@@ -275,13 +275,13 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>14 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/selang02.jpeg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$3.145.000</h6>
             <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
@@ -293,7 +293,61 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>10 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant1.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$980.000</h6>
+            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+            <ul>
+              <li>Bedrooms: <span>8</span></li>
+              <li>Bathrooms: <span>8</span></li>
+              <li>Area: <span>550m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>12 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant2.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$1.520.000</h6>
+            <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
+            <ul>
+              <li>Bedrooms: <span>12</span></li>
+              <li>Bathrooms: <span>15</span></li>
+              <li>Area: <span>380m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>14 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac cool">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/coolant3.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$3.145.000</h6>
+            <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+            <ul>
+              <li>Bedrooms: <span>10</span></li>
+              <li>Bathrooms: <span>12</span></li>
+              <li>Area: <span>860m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>10 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
             </div>
           </div>
         </div>

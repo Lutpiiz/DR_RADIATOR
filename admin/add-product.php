@@ -101,7 +101,7 @@
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link d-block" href="/admin/login.php">
+              <a class="nav-link d-block" href="/FP_PWL/admin/logout.php">
                 Admin, <b>Logout</b>
               </a>
             </li>

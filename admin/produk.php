@@ -97,8 +97,8 @@
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link d-block" href="login.php">
-                Admin, <b>Logout</b>
+              <a class="nav-link d-block" href="/FP_PWL/admin/logout.php">
+                <b>Logout</b>
               </a>
             </li>
           </ul>
@@ -259,7 +259,7 @@
             </div>
             <!-- table container -->
             <a
-              href="add-product.html"
+              href="add-product.php"
               class="btn btn-primary btn-block text-uppercase mb-3">Add new product</a>
             <button class="btn btn-primary btn-block text-uppercase">
               Delete selected products
