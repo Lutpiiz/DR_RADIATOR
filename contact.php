@@ -171,7 +171,7 @@ https://templatemo.com/tm-591-villa-agency
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                  <button type="submit" id="form-submit" class="orange-button"><a href="https://api.whatsapp.com/send?phone=6285158878446"></a>Send Message</button>
                 </fieldset>
               </div>
             </div>

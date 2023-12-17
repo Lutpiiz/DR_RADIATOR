@@ -34,13 +34,13 @@
                                 <label for="password" class="form-label">Password :</label>
                                 <div class="position-relative">
                                     <input type="password" id="password" name="txtPassword" class="form-control" placeholder="Enter your password">
-                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye-off.svg" alt="Toggle Password"></span>
+                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye.svg" alt="Toggle Password"></span>
                                 </div>
 
                             </div>
                             <button type="submit" class="btn">Login</button>
                             <div class="afterreg">
-                                <p>Don't have an account? <a href="registrasi.php" class="no-underline">Register here</a></p>
+                                <p>Don't have an account? <a href="registrasi.php" class="no-underline">Register here</a> <a href="/FP_PWL/index.php" class="no-underline">Back</a></p>
                             </div>
                         </form>
                     </div>

@@ -419,7 +419,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/UPPER tank.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/tank01.jpg" alt="" height="350px"></a>
             <span class="category">Upper Tank</span>
             <h6>Rp.584.500</h6>
             <h4><a href="property-details.html">For Avanza Xenia</a></h4>
@@ -431,7 +431,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/TERMOSTAT.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/TERMOSTAT.jpg" alt="" height="350px"></a>
             <span class="category">Termostat</span>
             <h6>Rp.125.600</h6>
             <h4><a href="property-details.html">No Brand</a></h4>
@@ -443,7 +443,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/LOWER tank.jpg" alt="" height="270px"></a>
+            <a href="property-details.html"><img src="assets/images/tank02.jpg" alt="" height="350px"></a>
             <span class="category">Lower Tank</span>
             <h6>RP.450.000</h6>
             <h4><a href="property-details.html">Toyota</a></h4>
