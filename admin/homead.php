@@ -23,7 +23,7 @@
     <div class="" id="home">
         <nav class="navbar navbar-expand-xl">
             <div class="container h-100">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="homead.php">
                     <h1 class="tm-site-title mb-0">Product Admin</h1>
                 </a>
                 <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,14 +56,14 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">
+                            <a class="nav-link" href="produk.php">
                                 <i class="fas fa-shopping-cart"></i>
                                 Products
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="accounts.html">
+                            <a class="nav-link" href="akun.php">
                                 <i class="far fa-user"></i>
                                 Accounts
                             </a>
@@ -85,8 +85,8 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link d-block" href="login.html">
-                                Admin, <b>Logout</b>
+                            <a class="nav-link d-block" href="homead.php">
+                                <b>Logout</b>
                             </a>
                         </li>
                     </ul>
