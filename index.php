@@ -92,6 +92,7 @@ https://templatemo.com/tm-591-villa-agency
               <li><a href="sparepart.php">Sparepart</a></li>
               <li><a href="jasa.php">Layanan</a></li>
               <li><a href="contact.php">Contact Us</a></li>
+              <li><a href="logout.php"></i>Logout</a></li>
               <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i>Login</a></li>
             </ul>
             <a class='menu-trigger'>
