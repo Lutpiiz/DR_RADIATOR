@@ -23,10 +23,10 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h2 class="mb-5">Create an account</h2>
+                    <h2 class="mb-5">Buat Akunmu Disini</h2>
                     <div>
                         <form action="register_action.php" method="post">
-                            <!-- Add your registration form fields here -->
+
                             <div class="mb-3">
                                 <label for="name" class="form-label">Username :</label>
                                 <input type="text" class="form-control" id="username" name="txtName" placeholder="Enter your full name" required>
@@ -42,8 +42,6 @@
                                     <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye.svg" alt="Toggle Password"></span>
                                 </div>
                             </div>
-                            <!-- Add any other registration form fields as needed -->
-
                             <button type="submit" class="btn">Register</button>
                             <div class="afterreg">
                                 <p>Already have an account? <a href="login.php" class="no-underline">Login here</a></p>
