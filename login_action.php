@@ -5,11 +5,11 @@ include("config.php");
 $email = $_POST['txtEmail']; 
 $password = $_POST['txtPassword'];
 
-$sql = "SELECT * FROM admin 
+$sql = "SELECT * FROM user 
         WHERE email='$email'
         AND password='$password'";
 
-$hasil = mysqli_query($config, $sql) or exit("Error query : <b>".$sql."</b>.");
+$hasil = mysqli_query($conn, $sql) or exit("Error query : <b>".$sql."</b>.");
 
     if(mysqli_num_rows($hasil)>0){
         $data = mysqli_fetch_array($hasil);
