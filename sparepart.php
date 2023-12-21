@@ -138,54 +138,44 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/Radiator-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$2.264.000</h6>
-            <h4><a href="property-details.html">18 Old Street Miami, OR 97219</a></h4>
+            <span class="category">ALTECH</span>
+            <h6>Rp.4.264.000</h6>
+            <h4><a href="property-details.html">ALTECH</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>545m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>6 spots</span></li>
+              <li>Radiator Altech adalah radiator aluminium yang anti overheat. Radiator Altech dapat digunakan untuk berbagai mobil</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/Radiator-02.jpg" alt="" height="355px"></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.180.000</h6>
-            <h4><a href="property-details.html">54 New Street Florida, OR 27001</a></h4>
+            <a href="property-details.html"><img src="assets/images/Radiator-02.jpg" alt=""></a>
+            <span class="category">KOYORAD</span>
+            <h6>Rp.2.180.000</h6>
+            <h4><a href="property-details.html">KOYORAD</a></h4>
             <ul>
-              <li>Bedrooms: <span>6</span></li>
-              <li>Bathrooms: <span>5</span></li>
-              <li>Area: <span>450m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>8 spots</span></li>
+              <li>Radiator Koyorad adalah radiator yang diproduksi untuk memenuhi standar kualitas dan performa yang ketat. Radiator Koyorad terbuat dari aluminium dan dirancang untuk performa dan daya tahan yang tinggi. 
+</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rad">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/Radiator-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="#">26 Mid Street Portland, OR 38540</a></h4>
+            <a href="property-details.html"><img src="assets/images/Radiator-06.jpg" alt=""></a>
+            <span class="category">MISHIMOTO</span>
+            <h6>Rp.20.460.000</h6>
+            <h4><a href="#">MISHIMOTO</a></h4>
             <ul>
-              <li>Bedrooms: <span>5</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>225m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>10 spots</span></li>
+              <li>Mishimoto adalah radiator aluminium yang dirancang untuk meningkatkan kemampuan pendinginan. Radiator Mishimoto dirancang untuk transmisi manual atau otomatis, dan beberapa dirancang untuk keduanya. 
+</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
@@ -210,6 +200,24 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rad">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/Radiator-05.jpg" alt=""></a>
+            <span class="category">Penthouse</span>
+            <h6>$925.600</h6>
+            <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
+            <ul>
+              <li>Bedrooms: <span>4</span></li>
+              <li>Bathrooms: <span>4</span></li>
+              <li>Area: <span>180m2</span></li>
+              <li>Floor: <span>38th</span></li>
+              <li>Parking: <span>2 cars</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rad">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/Radiator-03.jpg" alt=""></a>
             <span class="category">Penthouse</span>
             <h6>$925.600</h6>
             <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
@@ -261,6 +269,24 @@ https://templatemo.com/tm-591-villa-agency
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/tank03.jpg" alt="" height="355px"></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$980.000</h6>
+            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+            <ul>
+              <li>Bedrooms: <span>8</span></li>
+              <li>Bathrooms: <span>8</span></li>
+              <li>Area: <span>550m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>12 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/selang1.jpeg" alt=""></a>
@@ -282,6 +308,24 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/selang02.jpeg" alt=""></a>
+            <span class="category">Luxury Villa</span>
+            <h6>$3.145.000</h6>
+            <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+            <ul>
+              <li>Bedrooms: <span>10</span></li>
+              <li>Bathrooms: <span>12</span></li>
+              <li>Area: <span>860m2</span></li>
+              <li>Floor: <span>3</span></li>
+              <li>Parking: <span>10 spots</span></li>
+            </ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac sel">
+          <div class="item">
+            <a href="property-details.html"><img src="assets/images/selang03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$3.145.000</h6>
             <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
