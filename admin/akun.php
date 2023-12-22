@@ -117,9 +117,6 @@
               <select class="custom-select">
                 <option value="0">Select account</option>
                 <option value="1">Admin</option>
-                <option value="2">Editor</option>
-                <option value="3">Merchant</option>
-                <option value="4">Customer</option>
               </select>
             </div>
           </div>
@@ -149,7 +146,7 @@
               <h2 class="tm-block-title">Account Settings</h2>
               <form action="" class="tm-signup-form row">
                 <div class="form-group col-lg-6">
-                  <label for="name">Account Name</label>
+                  <label for="name">Username</label>
                   <input
                     id="name"
                     name="name"
@@ -158,7 +155,7 @@
                   />
                 </div>
                 <div class="form-group col-lg-6">
-                  <label for="email">Account Email</label>
+                  <label for="email">Email</label>
                   <input
                     id="email"
                     name="email"
@@ -172,24 +169,6 @@
                     id="password"
                     name="password"
                     type="password"
-                    class="form-control validate"
-                  />
-                </div>
-                <div class="form-group col-lg-6">
-                  <label for="password2">Re-enter Password</label>
-                  <input
-                    id="password2"
-                    name="password2"
-                    type="password"
-                    class="form-control validate"
-                  />
-                </div>
-                <div class="form-group col-lg-6">
-                  <label for="phone">Phone</label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
                     class="form-control validate"
                   />
                 </div>
