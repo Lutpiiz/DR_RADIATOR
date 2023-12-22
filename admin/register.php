@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Register</title>
     <link href="/FP_PWL/admin/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/FP_PWL/admin/css/login.css">
     <style>
@@ -23,24 +23,28 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h2 class="mb-5">Log in to your account</h2>
+                    <h2 class="mb-5">Buat Akunmu Disini</h2>
                     <div>
-                        <form action="/FP_PWL/admin/login_action.php" method="post">
+                        <form action="/FP_PWL/admin/register_action.php" method="post">
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Username :</label>
+                                <input type="text" class="form-control" id="username" name="txtName" placeholder="Enter your full name" required>
+                            </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email :</label>
-                                <input type="email" class="form-control" id="email" name="txtEmail" placeholder="Enter your email">
+                                <input type="email" class="form-control" id="email" name="txtEmail" placeholder="Enter your email" required>
                             </div>
                             <div>
                                 <label for="password" class="form-label">Password :</label>
                                 <div class="position-relative">
-                                    <input type="password" id="password" name="txtPassword" class="form-control" placeholder="Enter your password">
+                                    <input type="password" id="password" name="txtPassword" class="form-control" placeholder="Enter your password" required>
                                     <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye.svg" alt="Toggle Password"></span>
                                 </div>
-
                             </div>
-                            <button type="submit" class="btn">Login</button>
+                            <button type="submit" class="btn">Register</button>
                             <div class="afterreg">
-                                <p>Don't have an account? <a href="register.php" class="no-underline">Register here</a> <a href="/FP_PWL/index.php" class="no-underline">Back</a></p>
+                                <p>Already have an account? <a href="/FP_PWL/admin/login.php" class="no-underline">Login here</a></p>
                             </div>
                         </form>
                     </div>
