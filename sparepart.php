@@ -182,108 +182,84 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rad">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/Radiator-04.jpg" alt=""></a>
-            <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="property-details.html">12 Hope Street Portland, OR 12650</a></h4>
+            <span class="category">DENSO</span>
+            <h6>Rp.3.000.000</h6>
+            <h4><a href="property-details.html">DENSO</a></h4>
             <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>3</span></li>
-              <li>Area: <span>125m2</span></li>
-              <li>Floor: <span>25th</span></li>
-              <li>Parking: <span>2 cars</span></li>
+              <li>Radiator DENSO adalah radiator standar pabrikan mobil yang ada di indonesia, radiator ini sangat baik kualitasnya dikarena radiator ini merupakan barang OEM pabrikan </li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rad">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/Radiator-05.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
+            <span class="category">KOYORAD</span>
+            <h6>RP.1.925.600</h6>
+            <h4><a href="property-details.html">KOYORAD</a></h4>
             <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>180m2</span></li>
-              <li>Floor: <span>38th</span></li>
-              <li>Parking: <span>2 cars</span></li>
+              <li>Selain Radiator Full aluminium Koyorad juga mengeluarkan besutan radiator standar OEM yang kualitasnya cukup bagus untuk mobil di asia</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rad">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/Radiator-03.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
+            <span class="category">TRIVINDO</span>
+            <h6>RP.1.000.000</h6>
+            <h4><a href="property-details.html">TRIVINDO</a></h4>
             <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>180m2</span></li>
-              <li>Floor: <span>38th</span></li>
-              <li>Parking: <span>2 cars</span></li>
+              <li>Radiator TRIVINDO merupakan radiator aftermarket yang kualitasnya baik dan harganya cukup ramah dikantong</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/tank01.jpg" alt="" height="355px"></a>
-            <span class="category">Modern Condo</span>
-            <h6>$450.000</h6>
-            <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
+            <span class="category">Lower Tank</span>
+            <h6>Rp.500.000</h6>
+            <h4><a href="property-details.html">Segala Merk</a></h4>
             <ul>
-              <li>Bedrooms: <span>3</span></li>
-              <li>Bathrooms: <span>2</span></li>
-              <li>Area: <span>165m2</span></li>
-              <li>Floor: <span>26th</span></li>
-              <li>Parking: <span>3 cars</span></li>
+              <li>Kami menyediakan berbagai macam merk Lower Tank dari aluminium hingga kuningan, kualitas yang kami ambil sangat baik untuk mobil anda</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/tank02.jpg" alt="" height="355px"></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$980.000</h6>
-            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+            <span class="category">Upper Tank</span>
+            <h6>Rp.600.000</h6>
+            <h4><a href="property-details.html">Segala Merk</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>550m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>12 spots</span></li>
+              <li>Kami juga menyediakan Upper Tank dengan standar OEM pabrikan yang kualitasnya tidak diragukan lagi dan ada 2 untuk radiator aluminium maupun kuningan</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac tank">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/tank03.jpg" alt="" height="355px"></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$980.000</h6>
-            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+            <span class="category">Full Set Tank</span>
+            <h6>Rp.1.000.000</h6>
+            <h4><a href="property-details.html">Segala Merk</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>550m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>12 spots</span></li>
+              <li>Disini juga menyediakan full set tank dari berbagai macam merk aftermarket hingga OEM pabrikan dengan harga yang cukup bersahabat bagi pelanggan</li>
             </ul>
             <div class="main-button">
-              <a href="https://api.whatsapp.com/send?phone=6285158878446">Schedule a visit</a>
+              <a href="https://api.whatsapp.com/send?phone=6285158878446">Pemesanan</a>
             </div>
           </div>
         </div>
