@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
-    <link href="/FP_PWL/admin/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/FP_PWL/admin/css/login.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/login.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
     </style>
@@ -34,7 +34,7 @@
                                 <label for="password" class="form-label">Password :</label>
                                 <div class="position-relative">
                                     <input type="password" id="password" name="txtPassword" class="form-control" placeholder="Enter your password">
-                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye.svg" alt="Toggle Password"></span>
+                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye-off.svg" alt="Toggle Password"></span>
                                 </div>
 
                             </div>
@@ -49,8 +49,8 @@
         </div>
     </div>
 
-    <script src="/FP_PWL/admin/js/bootstrap.min.js"></script>
-    <script src="/FP_PWL/admin/js/main.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

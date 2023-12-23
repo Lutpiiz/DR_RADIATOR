@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Login - Admin</title>
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/FP_PWL/admin/css/login.css">
     <style>
@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="/FP_PWL/admin/img/logo2.svg" alt="" width="40%">
+            <img src="../assets/images/logo2.svg" alt="" width="40%">
         </div>
         <div class="row g-0">
             <div class="col-md-4 login-img">
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h2 class="mb-5">Log in to your account</h2>
+                    <h2 class="mb-5">Log in Admin</h2>
                     <div>
                         <form action="/FP_PWL/admin/login_action.php" method="post">
                             <div class="mb-3">
@@ -34,14 +34,11 @@
                                 <label for="password" class="form-label">Password :</label>
                                 <div class="position-relative">
                                     <input type="password" id="password" name="txtPassword" class="form-control" placeholder="Enter your password">
-                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="/FP_PWL/admin/img/eye.svg" alt="Toggle Password"></span>
+                                    <span class="toggle-password" onclick="togglePasswordVisibility()"><img class="position-absolute" src="../assets/images/eye-off.svg" alt="Toggle Password"></span>
                                 </div>
 
                             </div>
                             <button type="submit" class="btn">Login</button>
-                            <div class="afterreg">
-                                <p>Don't have an account? <a href="register.php" class="no-underline">Register here</a> <a href="/FP_PWL/index.php" class="no-underline">Back</a></p>
-                            </div>
                         </form>
                     </div>
                 </div>
@@ -49,8 +46,8 @@
         </div>
     </div>
 
-    <script src="/FP_PWL/admin/js/bootstrap.min.js"></script>
-    <script src="/FP_PWL/admin/js/main.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
