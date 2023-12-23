@@ -15,7 +15,7 @@ $hasil = mysqli_query($conn, $sql) or exit("Error query : <b>".$sql."</b>.");
         $data = mysqli_fetch_array($hasil);
         $_SESSION['email'] = $data['email'];
         $_SESSION['username'] = $data['username'];
-        header("Location:homead.php");
+        header("Location:index.php");
         exit();
 
     } else { ?>

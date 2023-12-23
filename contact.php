@@ -4,9 +4,7 @@
 <?php
 session_start();
 
-// Cek apakah session 'email' telah terdaftar
 if (!isset($_SESSION['email'])) {
-    // Jika belum login, arahkan kembali ke halaman login
     header("Location: login.php");
     exit;
 }
