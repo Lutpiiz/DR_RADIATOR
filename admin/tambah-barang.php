@@ -129,13 +129,13 @@ https://templatemo.com/tm-591-villa-agency
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="jenis" id="gridRadios3" value="sel">
-            <label class="form-check-label" for="gridRadios2">
+            <label class="form-check-label" for="gridRadios3">
               Selang
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="jenis" id="gridRadios4" value="cool">
-            <label class="form-check-label" for="gridRadios2">
+            <label class="form-check-label" for="gridRadios4">
               Coolant
             </label>
           </div>
@@ -196,6 +196,7 @@ https://templatemo.com/tm-591-villa-agency
           if (move_uploaded_file($_FILES["gambar"]["tmp_name"], $target_file)) {
             echo "<script>
                     alert('Data berhasil diupload.')
+                    window.location.href = 'index.php';
                   </script>";
           } else {
             echo "Maaf, ada error ketika mengupload file Anda.";

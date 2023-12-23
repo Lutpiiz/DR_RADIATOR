@@ -134,7 +134,7 @@ https://templatemo.com/tm-591-villa-agency
                                     <td width='150'>".$row['jenis']."</td>
                                     <td width='100'>".$row['deskripsi']."</td>
                                     <td width='100'>".$row['harga']."</td>
-                                    <td width='100'><a class='btn btn-info' href='edit-barang.php?id=".$row['id']."'>Edit</a> <a class='btn btn-danger' href='hapus-barang.php?id=".$row['id']."'>Hapus</a> </td>
+                                    <td width='100'><a class='btn btn-dark' href='edit-barang.php?id=".$row['id']."'>Edit</a> <a class='btn btn-warning' href='hapus-barang.php?id=".$row['id']."'>Hapus</a> </td>
                                   </tr>
                                             ";
                           $no++;
