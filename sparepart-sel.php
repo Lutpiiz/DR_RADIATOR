@@ -118,17 +118,17 @@ https://templatemo.com/tm-591-villa-agency
     <div class="section properties">
         <div class="container">
         <ul class="properties-filter">
-                <li><a class="is_active" href="#!">Show All</a></li>
+                <li><a href="sparepart.php">Show All</a></li>
                 <li><a href="sparepart-rad.php">Radiator</a></li>
                 <li><a href="sparepart-tank.php">Tank</a></li>
-                <li><a href="sparepart-sel.php">Selang</a></li>
+                <li><a class="is_active" href="#!">Selang</a></li>
                 <li><a href="sparepart-cool.php">Coolant</a></li>
             </ul>
 
             <div class="row" id="barang-list">
                 <?php
                 include('config.php');
-                $sql = mysqli_query($conn, "SELECT * FROM barang ORDER BY id ASC");
+                $sql = mysqli_query($conn, "SELECT * FROM barang WHERE jenis = 'sel' ORDER BY id ASC");
                 while ($row = mysqli_fetch_array($sql)) {
                     $nama = $row['nama'];
                     echo "

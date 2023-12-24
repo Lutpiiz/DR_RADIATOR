@@ -121,7 +121,6 @@ https://templatemo.com/tm-591-villa-agency
               
                 <?php 
                     include ('config.php');
-                    //*********** Perintah menampilkan daftar buku ***********//
                     $sql=mysqli_query($conn, "select * from barang order by id ASC");
                     $no=1;
                         while ($row=mysqli_fetch_array($sql)){
