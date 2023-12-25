@@ -91,7 +91,8 @@ https://templatemo.com/tm-591-villa-agency
                             <li><a href="sparepart.php" class="active">Sparepart</a></li>
                             <li><a href="jasa.php">Layanan</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
-                            <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i>Login</a></li>
+                            <li><a href="logout.php">Logout</a></li>
+                            <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i><?php echo "".$_SESSION['username']."" ?></a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -128,7 +129,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row" id="barang-list">
                 <?php
                 include('config.php');
-                $sql = mysqli_query($conn, "SELECT * FROM barang WHERE jenis = 'tank' ORDER BY id ASC");
+                $sql = mysqli_query($config, "SELECT * FROM barang WHERE jenis = 'tank' ORDER BY id ASC");
                 while ($row = mysqli_fetch_array($sql)) {
                     $nama = $row['nama'];
                     echo "
@@ -142,7 +143,7 @@ https://templatemo.com/tm-591-villa-agency
                                 <li>" . $row['deskripsi'] . "</li>
                             </ul>
                             <div class='main-button'>
-                                <a href='#'>Pemesanan</a>
+                                <a href='order.php?id=".$row['id']."'>Pemesanan</a>
                             </div>
                         </div>
                     </div>

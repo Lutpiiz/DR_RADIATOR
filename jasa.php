@@ -92,7 +92,8 @@ https://templatemo.com/tm-591-villa-agency
               <li><a href="sparepart.php">Sparepart</a></li>
               <li><a href="jasa.php" class="active">Layanan</a></li>
               <li><a href="contact.php">Contact Us</a></li>
-              <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i>Login</a></li>
+              <li><a href="logout.php">Logout</a></li>
+              <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i><?php echo "".$_SESSION['username']."" ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>

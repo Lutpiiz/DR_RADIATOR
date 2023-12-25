@@ -9,12 +9,13 @@ $sql = "SELECT * FROM user
         WHERE email='$email'
         AND password='$password'";
 
-$hasil = mysqli_query($conn, $sql) or exit("Error query : <b>".$sql."</b>.");
+$hasil = mysqli_query($config, $sql) or exit("Error query : <b>".$sql."</b>.");
 
     if(mysqli_num_rows($hasil)>0){
         $data = mysqli_fetch_array($hasil);
         $_SESSION['email'] = $data['email'];
         $_SESSION['username'] = $data['username'];
+        $_SESSION['telepon'] = $data['telepon'];
         header("Location:index.php");
         exit();
 

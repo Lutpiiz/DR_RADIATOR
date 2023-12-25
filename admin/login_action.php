@@ -13,8 +13,8 @@ $hasil = mysqli_query($conn, $sql) or exit("Error query : <b>".$sql."</b>.");
 
     if(mysqli_num_rows($hasil)>0){
         $data = mysqli_fetch_array($hasil);
-        $_SESSION['email'] = $data['email'];
-        $_SESSION['username'] = $data['username'];
+        $_SESSION['email_admin'] = $data['email'];
+        $_SESSION['username_admin'] = $data['username'];
         header("Location:index.php");
         exit();
 

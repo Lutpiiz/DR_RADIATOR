@@ -4,7 +4,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['email'])) {
+if (!isset($_SESSION['email_admin'])) {
     header("Location: login.php");
     exit;
 }
@@ -89,7 +89,8 @@ https://templatemo.com/tm-591-villa-agency
             <ul class="nav">
                 <li><a href="index.php" class="active">Daftar Barang</a></li>
                 <li><a href="tambah-barang.php">Tambah Barang</a></li>
-              <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "". $_SESSION['username'] ."" ?></a></li>
+                <li><a href="logout.php">Logout</a></li>
+              <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "". $_SESSION['username_admin'] ."" ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>

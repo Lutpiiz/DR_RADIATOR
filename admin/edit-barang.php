@@ -4,7 +4,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['email'])) {
+if (!isset($_SESSION['email_admin'])) {
     header("Location: login.php");
     exit;
 }
@@ -88,7 +88,8 @@ https://templatemo.com/tm-591-villa-agency
                         <ul class="nav">
                             <li><a href="index.php" class="active">Daftar Barang</a></li>
                             <li><a href="tambah-barang.php">Tambah Barang</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "" . $_SESSION['username'] . "" ?></a></li>
+                            <li><a href="logout.php">Logout</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "" . $_SESSION['username_admin'] . "" ?></a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -272,8 +273,8 @@ https://templatemo.com/tm-591-villa-agency
 
                 <div class="row mb-3">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Gambar</label>
-                    <div class="col-sm-10">
-                        <image width='60px' src='<?php echo "img/" . $gambar_barang ?>'>
+                    <div class="gambar">
+                        <image src='<?php echo "img/" . $gambar_barang ?>'>
                             File terupload: <?php echo $gambar_barang ?>
                     </div>
                 </div>

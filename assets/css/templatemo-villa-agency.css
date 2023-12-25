@@ -41,6 +41,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.gambar {
+  max-width: 300px;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
