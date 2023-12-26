@@ -107,7 +107,7 @@ https://templatemo.com/tm-591-villa-agency
 
     <div class="container">
         <center>
-            <h3>- DETAIL PESANAN -</h3>
+            <h3 class="mt-4 mb-3">- DETAIL PESANAN -</h3>
         </center>
 
         <?php
@@ -164,7 +164,13 @@ https://templatemo.com/tm-591-villa-agency
                         <img src="admin/img/<?php echo $gambar_barang ?>" alt="">
                     </div>
                 </div>
+            </div>
 
+            <div class="row mb-3">
+                <label for="inputPenulis" class="col-sm-2 col-form-label">Harga</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="harga" name="harga" value="<?php echo $harga_barang ?>" readonly>
+                </div>
             </div>
 
             <fieldset class="row mb-3">

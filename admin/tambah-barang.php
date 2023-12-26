@@ -89,6 +89,7 @@ https://templatemo.com/tm-591-villa-agency
             <ul class="nav">
                 <li><a href="index.php">Daftar Barang</a></li>
                 <li><a href="tambah-barang.php" class="active">Tambah Barang</a></li>
+                <li><a href="data-pesanan.php">Data Pesanan</a></li>
                 <li><a href="logout.php">Logout</a></li>
               <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "". $_SESSION['username_admin'] ."" ?></a></li>
             </ul>
@@ -103,7 +104,7 @@ https://templatemo.com/tm-591-villa-agency
   </header>
   <!-- ***** Header Area End ***** -->
   <div class="container">
-    <center><h3>- TAMBAH BARANG -</h3></center>
+    <center><h3 class="mt-4 mb-3">- TAMBAH BARANG -</h3></center>
     <br>
     <form action="tambah-barang.php" method="POST" enctype="multipart/form-data">
       <div class="row mb-3">
@@ -163,7 +164,11 @@ https://templatemo.com/tm-591-villa-agency
           <input type="file" class="form-control" id="gambar" name="gambar">
         </div>
       </div>
-      <button type="submit" class="btn btn-dark" name="simpan" value="Simpan">Tambahkan</button>
+      <center>
+        <button type="submit" class="btn btn-dark" name="simpan" value="Simpan">Tambahkan</button>
+        <a href="index.php"  class="btn btn-warning">Kembali ke Beranda</a>
+      </center>
+      
     </form>
 
     <?php
@@ -212,7 +217,6 @@ https://templatemo.com/tm-591-villa-agency
         }
     ?>
     <br>
-    <a href="index.php"  class="btn btn-warning">Kembali ke Beranda</a>
   </div>
 
   <footer>

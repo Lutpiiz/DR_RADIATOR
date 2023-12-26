@@ -342,7 +342,7 @@ https://templatemo.com/tm-591-villa-agency
                       <div class="info-table">
                         <ul>
                           <li>Nama <span>Dalijo nikolas</span></li>
-                          <li>Usia <span>34th</span></li>
+                          <li>Usia <span>45th</span></li>
                           <li>Pengalaman <span>10 Tahun</span></li>
                           <li>Spesialis <span>Korok radiator</span></li>
                         </ul>
@@ -361,95 +361,6 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="properties section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading text-center">
-            <h6>| Sparepart</h6>
-            <h2>Kita Selalu Menyediakan Sparepart Yang Berkualitas Dan Original</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/PEAK coolant.png" alt=""></a>
-            <span class="category">Air Coolant</span>
-            <h6>Rp.240.000</h6>
-            <h4>PEAK</h4>
-            <ul>
-              <li>Isi <span>5 liter</span></li>
-              <li>Aplikasi <span>All</span></li>
-              <li>Warna <span>Biru</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/MOBIL coolant.png" alt="" width="300px" height="350px"></a>
-            <span class="category">Air coolant</span>
-            <h6>Rp.180.000</h6></a>
-            <h4>Mobil</h4>
-            <ul>
-              <li>Isi <span>5 liter</span></li>
-              <li>Aplikasi <span>All</span></li>
-              <li>Warna <span>Merah</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/SAMCO selang.jpg" alt="" width="300px" height="350px"></a>
-            <span class="category">Selang</span>
-            <h6>Rp.100.000</h6>
-            <h4>SAMCO</h4>
-            <ul>
-              <li>Barang <span>Full Set</span></li>
-              <li>Aplikasi <span>All</span></li>
-              <li>Warna <span>Biru</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/tank01.jpg" alt="" height="350px"></a>
-            <span class="category">Lower Tank</span>
-            <h6>Rp.584.500</h6>
-            <h4><a href="property-details.html">For Avanza Xenia</a></h4>
-            <ul>
-              <li>Aplikasi <span>Avanza Xenia</span></li>
-              <li>Warna <span>Hitam</span></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/TERMOSTAT.jpg" alt="" height="350px"></a>
-            <span class="category">Termostat</span>
-            <h6>Rp.125.600</h6>
-            <h4><a href="property-details.html">No Brand</a></h4>
-            <ul>
-              <li>Aplikasi <span>All</span></li>
-            </ul>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/tank02.jpg" alt="" height="350px"></a>
-            <span class="category">Upper Tank</span>
-            <h6>RP.450.000</h6>
-            <h4><a href="property-details.html">Toyota</a></h4>
-            <ul>
-              <li>Aplikasi <span>Avanza & Xenia</span></li>
-            </ul>
           </div>
         </div>
       </div>

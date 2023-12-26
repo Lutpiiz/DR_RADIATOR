@@ -170,12 +170,35 @@ https://templatemo.com/tm-591-villa-agency
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button"><a href="https://api.whatsapp.com/send?phone=6285158878446"></a>Send Message</button>
+                <button type="button" id="form-submit" class="orange-button" onclick="sendMessage()">Send Message</button>
                 </fieldset>
               </div>
             </div>
           </form>
         </div>
+
+        <script>
+          function sendMessage() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+
+            // Replace <your_phone_number> with your actual WhatsApp number
+            var phoneNumber = '+6285802705913';
+            var whatsappMessage = 'Name: ' + name + '\nEmail: ' + email + '\nSubject: ' + subject + '\nMessage: ' + message;
+
+            // Generate the WhatsApp link
+            var whatsappLink = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(whatsappMessage);
+
+            // Open the link in a new tab
+            window.open(whatsappLink, '_blank');
+
+            // Reset the form after sending the message
+            document.getElementById('contact-form').reset();
+          }
+        </script>
+
         <div class="col-lg-12">
           <div id="map">
             <iframe

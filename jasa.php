@@ -6,9 +6,9 @@ session_start();
 
 // Cek apakah session 'email' telah terdaftar
 if (!isset($_SESSION['email'])) {
-    // Jika belum login, arahkan kembali ke halaman login
-    header("Location: login.php");
-    exit;
+  // Jika belum login, arahkan kembali ke halaman login
+  header("Location: login.php");
+  exit;
 }
 ?>
 
@@ -16,8 +16,7 @@ if (!isset($_SESSION['email'])) {
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <title>DR. RADIATOR</title>
 
@@ -93,7 +92,7 @@ https://templatemo.com/tm-591-villa-agency
               <li><a href="jasa.php" class="active">Layanan</a></li>
               <li><a href="contact.php">Contact Us</a></li>
               <li><a href="logout.php">Logout</a></li>
-              <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i><?php echo "".$_SESSION['username']."" ?></a></li>
+              <li><a href="/FP_PWL/admin/login.php"><i class="fa fa-user"></i><?php echo "" . $_SESSION['username'] . "" ?></a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -119,193 +118,77 @@ https://templatemo.com/tm-591-villa-agency
 
   <div class="section properties">
     <div class="container">
-      <ul class="properties-filter">
-        <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".adv">Ganti Radiator</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".str">Korok Radiator</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".rac">Tambal Bocor Radiator</a>
-        </li>
-      </ul>
       <div class="row properties-box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+
+        <?php
+        include('config.php');
+        $sql = mysqli_query($config, "SELECT * FROM jasa ORDER BY id ASC");
+        while ($row = mysqli_fetch_array($sql)) {
+          $nama = $row['nama'];
+          echo "
+          <div class='col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6'>
+            <div class='item'>
+              <img src='assets/images/" . $row['gambar'] . "' alt=''>
+              <span class='category'>" . $row['waktu'] . "</span>
+              <h6>Rp. " . number_format($row['harga'], 0, ',', '.') . "</h6>
+              <h4>" . $row['nama'] . "</h4>
+              <ul>
+                <li>" . $row['deskripsi'] . "</li>
+              </ul>
+              <div class='main-button'>
+                <a href='order-jasa.php?id=" . $row['id'] . "'>Pesan Sekarang</a>
+              </div>
+            </div>
+          </div>
+        ";
+        }
+        ?>
+
+        <!-- <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$2.264.000</h6>
-            <h4><a href="property-details.html">18 Old Street Miami, OR 97219</a></h4>
+            <img src="assets/images/ganti radiator.jpg" alt="">
+            <span class="category">1 Jam</span>
+            <h6>Rp. 3.500.000</h6>
+            <h4><a href="property-details.html">Ganti Radiator</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>545m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>6 spots</span></li>
+              <li>Ganti radiator lama anda dengan radiator baru milik kami. Kualitas terjamin.</li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="order-jasa.php">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.180.000</h6>
-            <h4><a href="property-details.html">54 New Street Florida, OR 27001</a></h4>
+            <a href="property-details.html"><img src="assets/images/korok radiator.jpg" alt=""></a>
+            <span class="category">2 Jam</span>
+            <h6>Rp. 500.000</h6>
+            <h4><a href="order-jasa.php">Korok Radiator</a></h4>
             <ul>
-              <li>Bedrooms: <span>6</span></li>
-              <li>Bathrooms: <span>5</span></li>
-              <li>Area: <span>450m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>8 spots</span></li>
+              <li>Ganti radiator lama anda dengan radiator baru milik kami. Kualitas terjamin.</li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.html">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Mid Street Portland, OR 38540</a></h4>
+            <a href="property-details.html"><img src="assets/images/tambal radiator.jpg" alt=""></a>
+            <span class="category">1 Jam</span>
+            <h6>Rp. 300.000</h6>
+            <h4><a href="property-details.html">Tambal Bocor Radiator</a></h4>
             <ul>
-              <li>Bedrooms: <span>5</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>225m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>10 spots</span></li>
+              <li>Ganti radiator lama anda dengan radiator baru milik kami. Kualitas terjamin.</li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="order-jasa.php">Pesan Sekarang</a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
-            <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="property-details.html">12 Hope Street Portland, OR 12650</a></h4>
-            <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>3</span></li>
-              <li>Area: <span>125m2</span></li>
-              <li>Floor: <span>25th</span></li>
-              <li>Parking: <span>2 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
-            <ul>
-              <li>Bedrooms: <span>4</span></li>
-              <li>Bathrooms: <span>4</span></li>
-              <li>Area: <span>180m2</span></li>
-              <li>Floor: <span>38th</span></li>
-              <li>Parking: <span>2 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
-            <span class="category">Modern Condo</span>
-            <h6>$450.000</h6>
-            <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
-            <ul>
-              <li>Bedrooms: <span>3</span></li>
-              <li>Bathrooms: <span>2</span></li>
-              <li>Area: <span>165m2</span></li>
-              <li>Floor: <span>26th</span></li>
-              <li>Parking: <span>3 cars</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$980.000</h6>
-            <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
-            <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>550m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>12 spots</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.520.000</h6>
-            <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
-            <ul>
-              <li>Bedrooms: <span>12</span></li>
-              <li>Bathrooms: <span>15</span></li>
-              <li>Area: <span>380m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>14 spots</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
-          <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$3.145.000</h6>
-            <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
-            <ul>
-              <li>Bedrooms: <span>10</span></li>
-              <li>Bathrooms: <span>12</span></li>
-              <li>Area: <span>860m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>10 spots</span></li>
-            </ul>
-            <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="#">1</a></li>
-            <li><a class="is_active" href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">>></a></li>
-          </ul>
-        </div>
+        </div> -->
+
       </div>
     </div>
   </div>

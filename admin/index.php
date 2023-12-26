@@ -81,7 +81,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="temp.php" class="logo">
+            <a href="#" class="logo">
               <h1>Dr.Radiator</h1>
             </a>
             <!-- ***** Logo End ***** -->
@@ -89,6 +89,7 @@ https://templatemo.com/tm-591-villa-agency
             <ul class="nav">
                 <li><a href="index.php" class="active">Daftar Barang</a></li>
                 <li><a href="tambah-barang.php">Tambah Barang</a></li>
+                <li><a href="data-pesanan.php">Data Pesanan</a></li>
                 <li><a href="logout.php">Logout</a></li>
               <li><a href="#"><i class="fa fa-user"></i>Admin <?php echo "". $_SESSION['username_admin'] ."" ?></a></li>
             </ul>
@@ -104,7 +105,7 @@ https://templatemo.com/tm-591-villa-agency
   <!-- ***** Header Area End ***** -->
 
     <div class="container">
-        <center><h3>- DATA SPAREPART -</h3></center>
+        <center><h3 class="mt-4 mb-3">- DATA SPAREPART -</h3></center>
         <br>
         <table class="table">
             <thead>
@@ -131,16 +132,16 @@ https://templatemo.com/tm-591-villa-agency
                                     <td width='30'>".$no."</td>
                                     <td width='100'><image width='60px' src='img/".$row['gambar']."'></td>
                                     <td width='200'>".$row['nama']."</td>
-                                    <td width='150'>".$row['jenis']."</td>
-                                    <td width='100'>".$row['deskripsi']."</td>
+                                    <td width='50'>".$row['jenis']."</td>
+                                    <td width='200'>".$row['deskripsi']."</td>
                                     <td width='100'>".$row['harga']."</td>
-                                    <td width='100'><a class='btn btn-dark' href='edit-barang.php?id=".$row['id']."'>Edit</a> <a class='btn btn-warning' href='hapus-barang.php?id=".$row['id']."'>Hapus</a> </td>
+                                    <td width='150'><a class='btn btn-dark' href='edit-barang.php?id=".$row['id']."'>Edit</a> <a class='btn btn-warning' href='hapus-barang.php?id=".$row['id']."'>Hapus</a> </td>
                                   </tr>
                                             ";
                           $no++;
                         };
                 ?>
-                
+                <!-- <script>alert('Data berhasil dihapus')</script> -->
             </tbody>
           </table>
     </div>
