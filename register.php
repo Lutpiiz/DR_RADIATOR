@@ -32,6 +32,10 @@
                                 <input type="text" class="form-control" id="username" name="txtName" placeholder="Enter your full name" required>
                             </div>
                             <div class="mb-3">
+                                <label for="name" class="form-label">No. Telepon :</label>
+                                <input type="text" class="form-control" id="telepon" name="txtTelepon" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3">
                                 <label for="email" class="form-label">Email :</label>
                                 <input type="email" class="form-control" id="email" name="txtEmail" placeholder="Enter your email" required>
                             </div>

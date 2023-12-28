@@ -118,7 +118,7 @@ https://templatemo.com/tm-591-villa-agency
 
     <div class="section properties">
         <div class="container">
-        <ul class="properties-filter">
+            <ul class="properties-filter">
                 <li><a class="is_active" href="#!">Show All</a></li>
                 <li><a href="sparepart-rad.php">Radiator</a></li>
                 <li><a href="sparepart-tank.php">Tank</a></li>
@@ -143,7 +143,7 @@ https://templatemo.com/tm-591-villa-agency
                                 <li>" . $row['deskripsi'] . "</li>
                             </ul>
                             <div class='main-button'>
-                                <a href='order.php?id=".$row['id']."'>Pemesanan</a>
+                                <a href='order.php?id=".$row['id']."'>Pesan</a>
                             </div>
                         </div>
                     </div>

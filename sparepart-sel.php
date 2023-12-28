@@ -143,7 +143,7 @@ https://templatemo.com/tm-591-villa-agency
                                 <li>" . $row['deskripsi'] . "</li>
                             </ul>
                             <div class='main-button'>
-                                <a href='order.php?id=".$row['id']."'>Pemesanan</a>
+                                <a href='order.php?id=".$row['id']."'>Pesan</a>
                             </div>
                         </div>
                     </div>
