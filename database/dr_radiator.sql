@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2023 at 04:46 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Waktu pembuatan: 09 Jan 2024 pada 02.28
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `admin`
+-- Struktur dari tabel `admin`
 --
 
 CREATE TABLE `admin` (
@@ -35,18 +35,19 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `admin`
+-- Dumping data untuk tabel `admin`
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`) VALUES
 (1, 'Luthfi', 'luthfi@gmail.com', '1234'),
 (2, 'Attha', 'handika@gmail.com', '1212'),
-(3, 'Vhemas', 'vhemas@gmail.com', '3434');
+(3, 'Vhemas', 'vhemas@gmail.com', '3434'),
+(4, 'admin', 'admin@gmail.com', 'admin');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `barang`
+-- Struktur dari tabel `barang`
 --
 
 CREATE TABLE `barang` (
@@ -55,23 +56,27 @@ CREATE TABLE `barang` (
   `jenis` varchar(50) NOT NULL,
   `deskripsi` varchar(200) NOT NULL,
   `harga` int(11) NOT NULL,
-  `gambar` varchar(100) NOT NULL
+  `gambar` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `barang`
+-- Dumping data untuk tabel `barang`
 --
 
 INSERT INTO `barang` (`id`, `nama`, `jenis`, `deskripsi`, `harga`, `gambar`) VALUES
 (1, 'Radiator Koyorad Josjis', 'rad', 'Radiator merek Koyorad kualitas no. 1 di Indonesia', 3000000, 'radiator2.jpg'),
 (2, 'Tank Super', 'tank', 'Tank super impor Jerman', 1000000, 'tank3.jpg'),
 (3, 'Coolant Ungu', 'cool', 'Coolant ungu racun kobra', 500000, 'coolant3.jpeg'),
-(5, 'Selang Biru', 'sel', 'Selang biru kuat 10 tahun', 300000, 'selang1.jpeg');
+(5, 'Selang Biru', 'sel', 'Selang biru kuat 10 tahun', 300000, 'selang1.jpeg'),
+(7, 'Coolant Ireng', 'cool', 'Coolant ireng pedas manis', 50000, 'coolant2.jpeg'),
+(8, 'Radiator Top', 'rad', 'Radiator top markotop', 2500000, 'radiator6.jpg'),
+(9, 'Tank  Avanza', 'tank', 'Tank Avanza ori impor Jepang', 300000, 'tank2.jpg'),
+(10, 'Selang Samco', 'sel', 'Selang Samco super', 150000, 'selangradiator1.jpg');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jasa`
+-- Struktur dari tabel `jasa`
 --
 
 CREATE TABLE `jasa` (
@@ -84,7 +89,7 @@ CREATE TABLE `jasa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `jasa`
+-- Dumping data untuk tabel `jasa`
 --
 
 INSERT INTO `jasa` (`id`, `nama`, `deskripsi`, `waktu`, `harga`, `gambar`) VALUES
@@ -95,7 +100,7 @@ INSERT INTO `jasa` (`id`, `nama`, `deskripsi`, `waktu`, `harga`, `gambar`) VALUE
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pesanan`
+-- Struktur dari tabel `pesanan`
 --
 
 CREATE TABLE `pesanan` (
@@ -109,7 +114,7 @@ CREATE TABLE `pesanan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `pesanan`
+-- Dumping data untuk tabel `pesanan`
 --
 
 INSERT INTO `pesanan` (`id`, `nama`, `telepon`, `email`, `beli`, `alamat`, `jenis_bayar`) VALUES
@@ -122,7 +127,7 @@ INSERT INTO `pesanan` (`id`, `nama`, `telepon`, `email`, `beli`, `alamat`, `jeni
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Struktur dari tabel `user`
 --
 
 CREATE TABLE `user` (
@@ -134,81 +139,82 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `user`
+-- Dumping data untuk tabel `user`
 --
 
 INSERT INTO `user` (`id`, `username`, `telepon`, `email`, `password`) VALUES
 (1, 'Yanto', '088811111111', 'yanto@gmail.com', '1111'),
 (2, 'Sumbul', '088822222222', 'sumbul@gmail.com', '2222'),
-(3, 'Sigit', '088833333333', 'sigit@gmail.com', '3333');
+(3, 'Sigit', '088833333333', 'sigit@gmail.com', '3333'),
+(4, 'user', '081234567890', 'user@gmail.com', 'user');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `admin`
+-- Indeks untuk tabel `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `barang`
+-- Indeks untuk tabel `barang`
 --
 ALTER TABLE `barang`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `jasa`
+-- Indeks untuk tabel `jasa`
 --
 ALTER TABLE `jasa`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `pesanan`
+-- Indeks untuk tabel `pesanan`
 --
 ALTER TABLE `pesanan`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `user`
+-- Indeks untuk tabel `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `admin`
+-- AUTO_INCREMENT untuk tabel `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT for table `barang`
+-- AUTO_INCREMENT untuk tabel `barang`
 --
 ALTER TABLE `barang`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
--- AUTO_INCREMENT for table `jasa`
+-- AUTO_INCREMENT untuk tabel `jasa`
 --
 ALTER TABLE `jasa`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `pesanan`
+-- AUTO_INCREMENT untuk tabel `pesanan`
 --
 ALTER TABLE `pesanan`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
